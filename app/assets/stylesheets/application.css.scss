@@ -40,18 +40,31 @@ h1, h2, h3 {
 
 .navbar-brand {
   font-family: 'open Sans' sans-serif;
-  font-weight: 800;
+  font-weight: 400;
 }
-
 
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color:white;
   &:hover {
     color:white;
-    opacity :0.75;
+    opacity: 0.50;
   }
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+  Background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px soild white;
+  &:hover, &:focus {
+    background-color: white; 
+    opacity: 0.30;
+    
+  }
+}
+/*Jeg har insat opacity, men jeg kan ikke få det til at virke nu så jeg fikser det problem senere , jeg vil gerne have sa man stadig kan se ikonet, men opacity bliver sænket*/
 
 /*Home Page Styles*/
 .home-callout {
