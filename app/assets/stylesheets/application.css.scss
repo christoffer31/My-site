@@ -48,19 +48,21 @@ h1, h2, h3 {
   color:white;
   &:hover {
     color:white;
-    opacity: 0.50;
+    opacity: 0.75;
   }
 }
 
 .navbar-default .navbar-toggle .icon-bar {
   Background-color: white;
+  
 }
 
+.navbar-default .navbar-toggle .icon-bar
 .navbar-default .navbar-toggle {
   border: 2px soild white;
   &:hover, &:focus {
     background-color: white; 
-    opacity: 0.30;
+    opacity: 0.25;
     
   }
 }
